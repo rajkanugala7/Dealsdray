@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8f8f2;
+}
+.navbar {
+  background-color: #212929 !important; /* Ensure the background color is applied */
+  width: 100vw;
+  
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: rgb(236, 234, 228) !important; /* Force the text color to cornsilk */
+}
+
+.navbar .nav-link:hover {
+  color: #f0e68c !important; /* Optional: Lighter color on hover */
+}
+.navbar-nav{
+  justify-content: space-evenly;
+
+  width: 100vw;
+}
+.dashboard{
+  margin-top: 20px;
+ 
+}
+.dtop{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid #212929;
+  background-color: white;
+}
+.dtop span{
+  margin-right: 20px;
+}
+.dtop button{
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.dtop button a{
+  color: white;
+  text-decoration: none;
+}
+.loginpage{
+  
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+align-items: center;
+gap: 0px;
+}
+.loginpage form{
+  width: 40vw;
+  align-self: center;
+  margin-right: 100px;
+  padding: 50px;
+  background-color: #E0F3FF;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+
+}
+#loginimg{
+     border-top-left-radius: 20%;
+     border-bottom-left-radius: 20%;
+     margin-left: 14vw;
+}
+.form-label{
+  font-size: 1.2rem;
+  font-weight:800;
+}
+.logonav {
+  height: 10vh;
+  background-color: white !important;
+  border-bottom: 1px solid #ccc; /* Light gray border at the bottom */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logonav img{
+  height: 8vh;
+  width: 5.3rem;
+  margin-left: 1.5rem;
+
+}
